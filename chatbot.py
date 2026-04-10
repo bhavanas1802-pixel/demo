@@ -16,10 +16,10 @@ deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 
 print("Chatbot ready! Type 'exit' to stop.\n")
 
-# while True:
-#     user_input = input("You: ")
-#     if user_input.lower() == "exit":
-#         break
+while True:
+    user_input = input("You: ")
+    if user_input.lower() == "exit":
+        break
 
 #     response = client.chat.completions.create(
 #         model=deployment_name,
