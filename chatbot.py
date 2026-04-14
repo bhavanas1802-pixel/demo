@@ -29,7 +29,7 @@ print("Chatbot ready! Type 'exit' to stop.\n")
 #         ]
 #     )
 
-#     print("Bot:", response.choices[0].message.content)
+     print("Bot:", response.choices[0].message.content)
 
 #st.set_page_config(page_title="Azure OpenAI Chatbot")
 
