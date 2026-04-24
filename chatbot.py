@@ -5,7 +5,7 @@ import streamlit as st
 
 load_dotenv()
 
-
+# Adding the Comments
 # client = AzureOpenAI(
 #     api_key=os.getenv("AZURE_OPENAI_KEY"),
 #     api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
