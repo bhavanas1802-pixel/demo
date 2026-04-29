@@ -10,13 +10,19 @@ load_dotenv()
 #     api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
 #     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
 # )
+<<<<<<< HEAD
 # added a dummy line for verification
 
+# =======
+# >>>>>>> 23a1c34cc1d945433f859fa681961130b4bf7bde
 
 deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 
 print("Chatbot ready! Type 'exit' to stop.\n")
+<<<<<<< HEAD
 print("Chatbot ready! Type 'exit' to stop.\n")
+# =======
+# >>>>>>> 23a1c34cc1d945433f859fa681961130b4bf7bde
 
 while True:
     user_input = input("You: ")
