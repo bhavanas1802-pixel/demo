@@ -36,7 +36,8 @@ while True:
 #             {"role": "user", "content": user_input}
 #         ]
 #     )
-# adding the second line to just check 
+# adding the second line to just check
+#adding the third line to check
      print("Bot:", response.choices[0].message.content)
 
 #st.set_page_config(page_title="Azure OpenAI Chatbot")
