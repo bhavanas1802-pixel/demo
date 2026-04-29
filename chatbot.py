@@ -10,7 +10,7 @@ load_dotenv()
 #     api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
 #     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
 # )
-<<<<<<< HEAD
+# <<<<<<< HEAD
 # added a dummy line for verification
 
 # =======
@@ -36,7 +36,7 @@ while True:
 #             {"role": "user", "content": user_input}
 #         ]
 #     )
-
+# adding the second line to just check 
      print("Bot:", response.choices[0].message.content)
 
 #st.set_page_config(page_title="Azure OpenAI Chatbot")
